@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#000000">
+
+    <TextView
+        android:id="@+id/VIEWname_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge" 
+        android:textColor="#FFFFFF" />
+    <FrameLayout
+        android:id="@+id/frameLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="10dp" >
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/Dversions_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/VIEWversions_text"
+        android:textAppearance="?android:attr/textAppearanceMedium" 
+        android:textColor="#909090" />
+
+    <TextView
+        android:id="@+id/VIEWversions_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="15dp"
+        android:textColor="#FFFFFF" />
+
+    <FrameLayout
+        android:id="@+id/FrameLayout01"
+        android:layout_width="match_parent"
+        android:layout_height="15dp" >
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/VIEWsh_deskript_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="15dp" 
+        android:textColor="#FFFFFF" />
+
+    <FrameLayout
+        android:id="@+id/FrameLayout02"
+        android:layout_width="match_parent"
+        android:layout_height="15dp" >
+    </FrameLayout>
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/Ddescription_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/VIEWdeskription_text"
+                android:textAppearance="?android:attr/textAppearanceMedium" 
+                android:textColor="#909090"/>
+
+            <FrameLayout
+                android:id="@+id/FrameLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/VIEWdescription_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Medium Text"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="15dp" 
+                    android:textColor="#FFFFFF" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/FrameLayout03"
+                android:layout_width="match_parent"
+                android:layout_height="15dp" >
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/Dparameters_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/VIEWparameters_text"
+                android:textAppearance="?android:attr/textAppearanceMedium" 
+                android:textColor="#909090" />
+
+            <FrameLayout
+                android:id="@+id/FrameLayout3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/VIEWparameters_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Medium Text"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="15dp"
+                    android:textColor="#FFFFFF" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/FrameLayout04"
+                android:layout_width="match_parent"
+                android:layout_height="15dp" >
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/Doutput_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/VIEWoutput_text"
+                android:textAppearance="?android:attr/textAppearanceMedium" 
+                android:textColor="#909090" />
+
+            <FrameLayout
+                android:id="@+id/FrameLayout4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/VIEWoutput_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Medium Text"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="15dp"
+                    android:textColor="#FFFFFF" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/FrameLayout05"
+                android:layout_width="match_parent"
+                android:layout_height="15dp" >
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/Derrors_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/VIEWerrors_text"
+                android:textAppearance="?android:attr/textAppearanceMedium" 
+                android:textColor="#909090" />
+
+            <FrameLayout
+                android:id="@+id/FrameLayout5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/VIEWerrors_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Medium Text"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="15dp"
+                    android:textColor="#FFFFFF" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/FrameLayout06"
+                android:layout_width="match_parent"
+                android:layout_height="15dp" >
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/Dexample_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/VIEWexample_text"
+                android:textAppearance="?android:attr/textAppearanceMedium" 
+                android:textColor="#909090" />
+
+            <FrameLayout
+                android:id="@+id/FrameLayout6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/VIEWexample_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Medium Text"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="15dp"
+                    android:textColor="#FFFFFF" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/FrameLayout07"
+                android:layout_width="match_parent"
+                android:layout_height="15dp" >
+            </FrameLayout>
+            <TextView
+                android:id="@+id/Dexample_result_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/VIEWexample_result_text"
+                android:textAppearance="?android:attr/textAppearanceMedium" 
+                android:textColor="#909090" />
+
+            <FrameLayout
+                android:id="@+id/FrameLayout7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/VIEWexample_result_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Medium Text"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="15dp"
+                    android:textColor="#FFFFFF" />
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/top_prefs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/preffs_top"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="20dp" >
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/serviceControll_Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/serviceControll_text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <FrameLayout
+        android:id="@+id/FrameLayout01"
+        android:layout_width="match_parent"
+        android:layout_height="10dp" >
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/buttonStartStop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="@string/start_butt" />
+
+    <CheckBox
+        android:id="@+id/BootRunService_Check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/BootRunService_Check" />
+
+    <FrameLayout
+        android:id="@+id/FrameLayout02"
+        android:layout_width="match_parent"
+        android:layout_height="10dp" >
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/updateperiod_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/updatePeriod_text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <SeekBar
+        android:id="@+id/UpdateWordInterval_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/updatePeriodCurrent_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Small Text"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <FrameLayout
+        android:id="@+id/FrameLayout03"
+        android:layout_width="match_parent"
+        android:layout_height="20dp" >
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/dataBaseControl_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dataBaseControl_text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <FrameLayout
+        android:id="@+id/FrameLayout04"
+        android:layout_width="match_parent"
+        android:layout_height="10dp" >
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/updateDataBase_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/updateDataBase_button" />
+
+    <FrameLayout
+        android:id="@+id/FrameLayout05"
+        android:layout_width="match_parent"
+        android:layout_height="10dp" >
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/dB_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Small Text"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</LinearLayout>
